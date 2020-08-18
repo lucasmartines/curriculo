@@ -1,0 +1,281 @@
+.background-overlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    background: linear-gradient(-90deg, #e2e2e2, transparent);
+}
+.background-image{
+    background-image: url("https://img.freepik.com/free-vector/white-polygonal-abstract-mosaic-background_108964-439.jpg?size=626&ext=jpg");
+    top: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0.2;
+    width: 100%;
+    background-position-x: 155px;
+}
+
+
+
+
+
+
+.special-text{
+    line-height: 1.0;
+    font-style: italic;
+    margin-bottom: 0;
+    border-left: 3px solid #ddd;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    max-width: 760px;
+}
+
+
+
+
+
+
+
+
+.cabecario{
+    padding-top: 30px;
+    
+}
+.cabecario .titulo{
+    margin-bottom: 0;
+}
+.cabecario .sub-titulo{
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #8c8585;
+    padding: 0 0;
+}
+
+
+.cabecario .contato-container{
+
+}
+    .contato-container .titulo{
+        color: #888282;
+        font-weight: 300;
+        font-size: 1.2em;
+    }
+    .contato-container ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        padding-left: 0;
+    }
+    .contato-container li{
+        display: block;
+        font-weight: 500;
+        color: #777;
+        font-size: 0.7em;
+        margin-top: 0.7em;
+        margin: 2px;
+        background: #d1d1d1;
+        border-radius: 4px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    a.contato-link{
+        color:#6b6b6b;
+    }
+    .contato-dados {
+
+    }
+        @media( max-width:480px){
+            .contato-dados{
+                display: flex;
+                flex-direction: column;
+                padding-left:0;
+                align-items: flex-end;
+            }
+        }
+
+
+
+
+
+
+
+
+
+@media(max-width:480px){
+    .panel{
+        padding-top   : 30px ;
+        padding-bottom: 30px ;
+    }
+}
+.panel{
+    padding-top:15px;
+}
+.panel .panel-header{
+    
+    border-bottom: 1px solid #d2d2d2;
+}
+.panel .panel-header .panel-title{
+    color: #888282;
+    /* font-weight: 300; */
+    font-size: 1.0em;
+}
+.panel-body{
+    padding: 0 !important;
+}
+.panel-text{
+    margin: 10px 0;
+    font-size: 16px;
+    color: #63636D;
+    line-height: 1.3em;
+}
+
+
+
+.panel-item{
+    padding-top:20px;
+}
+.panel-item .title{
+    font-size: 1.1rem;
+}
+.panel-item .sub-title{
+
+    color: #828282;
+}
+
+
+
+
+
+
+
+
+
+
+
+.items-container-sidebar{
+    padding-top:20px;
+
+    color: #888282;
+    padding-left: 0;
+}
+.items-container-sidebar .item-sidebar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin-bottom: 2px;
+    padding-left: 0px;
+    list-style: none;
+    
+}
+.item-sidebar.disabled a{
+    cursor: auto;
+}
+.items-container-sidebar .item-sidebar a{
+    color: #333;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding-left:6px;
+}
+    .item-sidebar a:hover{
+        background: #e5e5e5;
+    }
+    .item-sidebar.disabled a:hover{
+        background: transparent;
+    }
+.items-container-sidebar .item-sidebar .item-sidebar-text{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+    .items-container-sidebar .circle-effect{
+        border-radius: 50%;
+        background: #dadada;
+    
+        min-width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+    .items-container-sidebar .icon{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        color: #333;
+    }
+    .habilidade-item{
+        font-size: 13px;
+        padding: 2px 4px;
+        opacity: 1;
+        margin: 2px;
+    }
+
+
+
+
+
+
+.linguagens-container{
+    list-style: none;
+    padding-left: 0;
+    font-size: 12px;
+
+}
+.linguagens-container .linguagem-item{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+    .text-language{
+        font-weight: bolder;
+        font-size: 13px;
+        flex-grow: 1;
+    }
+    .text-level{
+        opacity: 0.9;
+        margin-right: 5px;
+    }
+    .bullets-container{
+        width: 48px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .bullets-container .bullet{
+        content: " ";
+        min-width: 6px;
+        height: 6px;
+        background: #333;
+        display: block;
+        border-radius: 50%;
+        
+    }
+    .bullets-container .bullet.inactive{
+        background: #999;
+    }
+
+
+
+
+
+
+
+
+
+.btn-outline-secondary:disabled {
+        opacity: 1;
+
+}
